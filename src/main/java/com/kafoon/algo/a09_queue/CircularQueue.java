@@ -55,10 +55,10 @@ public class CircularQueue {
     public String dequeue(){
         if(tail == head) return null;
 
-        String s = items[head];
+        String ret = items[head];
         head = (head+1) % n;
 
-        return s;
+        return ret;
     }
 
 }
