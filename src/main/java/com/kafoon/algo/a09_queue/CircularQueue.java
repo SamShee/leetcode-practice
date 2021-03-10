@@ -21,9 +21,11 @@ package com.kafoon.algo.a09_queue;
 public class CircularQueue {
 
     private String[] items;
+    //队列的首尾指针
     private int head = 0;
     private int tail = 0;
 
+    //队列的容量
     private int n = 0;
 
     public CircularQueue(int capacity){
